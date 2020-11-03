@@ -1,0 +1,52 @@
+.nav-container {
+    
+    padding: 3px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+body{
+    
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:2%;
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgb(0, 0, 0,0.9)),url("landingpage.jpg");
+   
+}  
+#main{
+  height:500px;
+  width:auto;
+  padding:5%;
+ color:white;
+  
+}
+#order{
+ background-color: lightcoral;
+ height:50px;
+ width:150px;
+ float: left;
+ margin-right: 5%;
+}
+h3{
+  float:left;
+  margin-right: 4%;
+}
+#play{
+  width:60px;
+  height:60px;
+  border-radius: 60px;
+  text-align: center;
+  background-color: lightcoral;
+
+}

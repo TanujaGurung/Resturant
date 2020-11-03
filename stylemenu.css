@@ -1,0 +1,48 @@
+.nav-container {
+    
+    padding: 3px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+body{
+    background-size: cover;
+    
+    background: linear-gradient(to left, rgba(0,0,0,0.5), rgb(0, 0, 0,0.9)),url("image2.jpg");
+    background-repeat: no-repeat;
+}  
+#main{
+  
+  padding: 10%;
+ color:rgb(4, 90, 119);
+ 
+ height: 400px;
+ width:70%;
+ background-color: rgb(2, 2, 2);
+ margin-left: 3%;
+ opacity:0.5; 
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: white;
+ text-align: center;
+ 
+  
+}
+
+#btn{
+    width:60px;
+    height:60px;
+    border-radius: 60px;
+    text-align: center;
+    background-color: lightcoral;
+  
+  }
